@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cristian.cwcatalog.dto.ProductDTO;
 import com.cristian.cwcatalog.entities.Product;
 import com.cristian.cwcatalog.services.ProductService;
 
@@ -19,8 +20,8 @@ public class ProductResource {
 	private ProductService service;
 	
 	@GetMapping
-	public ResponseEntity<List<Product>> findAll(){		
-		List<Product> list = service.findAll(); 
+	public ResponseEntity<List<ProductDTO>> findAll(){		
+		List<ProductDTO> list = service.findAll(); 
 		return ResponseEntity.ok().body(list);
 	}
 
