@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.cristian.cwcatalog.dto.ProductDTO;
+import com.cristian.cwcatalog.dto.ProductInsertDTO;
 import com.cristian.cwcatalog.entities.Product;
 import com.cristian.cwcatalog.exceptions.ResourceNotFoundException;
 import com.cristian.cwcatalog.repositories.ProductRepository;
@@ -43,7 +44,7 @@ public class ProductService {
 	}
 	
 	@Transactional
-	public ProductDTO insert(ProductDTO product){
+	public ProductDTO insert(ProductInsertDTO product){
 		Product entity = new Product();
 		entity.setName(product.getName());
 		entity.setDescription(product.getDescription());

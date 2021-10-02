@@ -11,10 +11,6 @@ import com.cristian.cwcatalog.entities.Product;
 @Repository
 public interface ProductRepository extends JpaRepository<Product, String> {
 	
-//	@Query("SELECT DISTINCT obj FROM Product obj INNER JOIN obj.categories cats WHERE "
-//			+ "(COALESCE(:categories) IS NULL OR cats IN :categories) "
-//			+ "AND (LOWER(obj.name) LIKE LOWER(CONCAT('%', :name, '%')))")
-	
 	@Query(" SELECT obj FROM Product obj"
 			+ " WHERE (COALESCE(:minPrice) IS NULL OR obj.price >= :minPrice)"
 			+ "	AND (COALESCE(:maxPrice) IS NULL OR obj.price <= :maxPrice)"
