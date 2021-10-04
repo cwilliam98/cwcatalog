@@ -24,7 +24,7 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
     {
       "name": "string",
       "description": "string",
-      "price": 59.99
+      "price": <preco>
     } 
   ```
   
