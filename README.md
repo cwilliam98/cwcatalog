@@ -27,3 +27,22 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
       "price": 59.99
     } 
   ```
+  
+  
+  ## Iniciando essa aplicação
+
+´´´
+	git clone https://github.com/cwilliam98/cwcatalog.git
+´´´
+
+´´´
+	cd  cwcatalog/backend
+´´´
+
+´´´
+	mvn install
+´´´
+
+´´´
+	mvn spring-boot:run  
+´´´
