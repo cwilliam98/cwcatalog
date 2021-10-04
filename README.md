@@ -8,7 +8,7 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
 ## Os endpoints existentes na aplicação são:
 
 
-| Verbo HTTP | Resource path                          | Descrição                   | Query param             |
+| Verbo HTTP | Resource path                          | Description                 | Query param             |
 | ---------- | -------------------------------------- | --------------------------- | ----------------------- |  
 |  POST      |	http://localhost:9999/products				|	Criação de um produto       |                         |
 |  PUT	     |	http://localhost:9999/products/{id}		|	Atualização de um produto   |                         |
