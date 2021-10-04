@@ -7,10 +7,12 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
 
 Os endpoints existentes na aplicação são:
 
-Verbo HTTP	Resource path                             	Descrição
-POST	      http://localhost:9999/products				      Criação de um produto
-PUT		      http://localhost:9999/products/{id}			    Atualização de um produto
-GET		      http://localhost:9999/products/{id}			    Busca de um produto por ID
-GET		      http://localhost:9999/products				      Lista de produtos
-GET		      http://localhost:9999/products/search		    Lista de produtos filtrados
-DELETE	   	http://localhost:9999/products/{id}			    Deleção de um produto
+
+| Verbo HTTP | Resource path                          | Descrição                   |
+| ---------- | -------------------------------------- | --------------------------- |
+|  POST      |	http://localhost:9999/products				|	Criação de um produto       |
+|  PUT	     |	http://localhost:9999/products/{id}		|	Atualização de um produto   |
+|  GET	     |	http://localhost:9999/products/{id}		|	Busca de um produto por ID  |
+|  GET	     |	http://localhost:9999/products				|	Lista de produtos           |
+|  GET	     |	http://localhost:9999/products/search	|	Lista de produtos filtrados |
+|  DELETE    |	http://localhost:9999/products/{id}		|	Deleção de um produto       |
