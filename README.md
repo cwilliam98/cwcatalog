@@ -16,3 +16,15 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
 |  GET	     |	http://localhost:9999/products				|	Lista de produtos           |                         |
 |  GET	     |	http://localhost:9999/products/search	|	Lista de produtos filtrados | q, min_price, max_price |
 |  DELETE    |	http://localhost:9999/products/{id}		|	Deleção de um produto       |                         |
+
+
+## Formato
+  O formato esperado de um produto é:
+  '''
+    {
+      "id": "string",
+      "name": "string",
+      "description": "string",
+      "price": 59.99
+    } 
+  '''
