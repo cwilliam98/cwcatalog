@@ -22,7 +22,6 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
   O formato esperado de um produto é:
   ```
     {
-      "id": "string",
       "name": "string",
       "description": "string",
       "price": 59.99
