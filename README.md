@@ -31,14 +31,14 @@ Está é uma API que possibilita a Criação de um produto, Atualização de um 
   
 ## Iniciando essa aplicação
 ```
-	git clone https://github.com/cwilliam98/cwcatalog.git
+ git clone https://github.com/cwilliam98/cwcatalog.git
 ```
 ```
-	cd  cwcatalog/backend
+ cd  cwcatalog/backend
 ```
 ```
-	mvn install
+ mvn install
 ```
 ```
-	mvn spring-boot:run  
+ mvn spring-boot:run  
 ```
