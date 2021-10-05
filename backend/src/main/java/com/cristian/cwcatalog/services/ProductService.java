@@ -33,7 +33,7 @@ public class ProductService {
 	@Transactional(readOnly = true)
 	public ProductDTO findById(String id){
 		Optional<Product> obj = repository.findById(id);
-		Product entity = obj.orElseThrow();
+		Product entity = obj.orElseThrow(() -> new ResourceNotFoundException("Entity not found"));
 		return new ProductDTO(entity);
 	}
 	
